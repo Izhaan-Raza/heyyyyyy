@@ -1,43 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Izhaan RAza</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="stylesheet.css"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <!------------------------------------------important --------------------------------------------->
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F7ZKEBRXF6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F7ZKEBRXF6");
+    </script>
+    
+    <!------------------------------------------important --------------------------------------------->
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- <header class="header">
+      <a href="#" class="logo">Izhaan</a>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <nav class="navbar">
+        <a href="#" style="--i: 1" class="active">Home</a>
+        <a href="#" style="--i: 2">About</a>
+        <a href="#" style="--i: 3">Skills</a>
+        <a href="#" style="--i: 4">Projects</a>
+        <a href="#" style="--i: 5">Contact</a>
+      </nav>
+    </header> -->
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello It's me</h3>
+        <h1>Izhaan Raza</h1>
+        <h3>And I am a <span class="text"></span></h3>
+        <p>
+          I'm a high school student and a passionate web developer.
+          <br />I like to design and develop websites and learn new things.
+        </p>
+        <div class="home-sci">
+          <a href="https://twitter.com/RazaIzhaan" style="--i: 7"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/_.izzu__/" style="--i: 8"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Izhaan-Raza" style="--i: 9"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <!-- <a href="#"></a> -->
+        </div>
+        <a href="about.html" class="btn-box">More About me </a>
+      </div>
+      <span class="home-imgHover"></span>
+    </section>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- <section class="about" id="about">
+      <div class="about-img">
+        <img src="smalll.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>I am a passionate front end developer and designer</h4>
+        <p>
+          I am a high school student and a passionate web developer. I like to
+          design and develop websites and learn new things. I stduy in class 12
+          and I am 17 years old. I have been learning web development for 2
+          years now and I have made many projects. I have also made a few
+          websites for my friends. I have also represented my school in many
+          interschool and national scince fests. Some of my skills and projects
+          are listed below.
+        </p>
+      </div>
+    </section> -->
+    <script src="main.js"></script>
   </body>
 </html>
