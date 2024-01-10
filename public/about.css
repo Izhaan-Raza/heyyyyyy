@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "outfit", sans-serif;
+  }
+  
+  body {
+    background-color: #00335e;
+  }
+  
+  .abc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .coming {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 5px;
+  }
+  
+  .btn-box {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #00335e;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .btn-box:hover {
+    box-shadow: 0 0 5px #0ef, 0 0 20px #0ef, 0 0 40px #0ef;
+  }
+  
